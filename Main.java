@@ -1,8 +1,6 @@
-public
-class Main {
+public class Main {
 
-    public static
-    void main(String[] args) {
+    public static void main(String[] args) {
 
         //creamos el objeto persona en el main
         Persona persona = new Persona();
@@ -20,19 +18,15 @@ class Main {
     }
 }
 
-/*
-Creamos la clase Persona y los Setters
-y Getters respectivos de las propiedades
-privadas de la clase persona
-*/
+
+// Creamos la clase Persona
 
 class Persona {
     private String nombre;
     private int    edad;
     private int    telefono;
 
-
-    // Get y Set de la propiedad Nombre
+// Get y Set de la propiedad Nombre
     public String getNombre() {
         return nombre;
     }
@@ -40,7 +34,7 @@ class Persona {
         this.nombre = nombre;
     }
 
-    // Get y Set de la propiedad Edad
+// Get y Set de la propiedad Edad
     public int getEdad() {
         return edad;
     }
@@ -48,7 +42,7 @@ class Persona {
         this.edad = edad;
     }
 
-    // Get y Set de la propiedad Teléfono
+// Get y Set de la propiedad Teléfono
     public int getTelefono() {
         return telefono;
     }
